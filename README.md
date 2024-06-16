@@ -22,3 +22,7 @@ How to run
    $ ip route
    $ export GATEWAY_IP=`ip route | awk '/default/ { print $3 }'`
    ```
+
+## References:
+1. [Build reverse proxy server in Go](https://dev.to/b0r/implement-reverse-proxy-in-gogolang-2cp4#s1)
+2. [How To Set Up a Reverse Proxy Kinsta](https://kinsta.com/blog/reverse-proxy/)
